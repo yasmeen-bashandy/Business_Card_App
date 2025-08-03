@@ -46,7 +46,7 @@ class BusinessCard extends StatelessWidget {
                   
                 ),
                 Text(
-                'Flutter Developer & communication Engineer',
+                'Flutter Developer & Communication Engineer',
                 style: TextStyle(
                   color:Color(0xFF6C8090),
                   fontSize:15, 
