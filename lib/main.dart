@@ -24,12 +24,12 @@ class BusinessCard extends StatelessWidget {
               
               //  )
               CircleAvatar(
-                radius: 92,
+                radius: 112,
                 backgroundColor:Colors.white,
                 child: CircleAvatar(
-                  radius: 90,
+                  radius: 110,
                   backgroundImage: AssetImage(
-                    'images/yasmeen.jpeg'),
+                    'images/yasmeen1.jpeg'),
                 ),
               ),
               Text(
@@ -40,15 +40,28 @@ class BusinessCard extends StatelessWidget {
                   fontFamily: 'Pacifico',
                 ),
                 ),
+                 Divider(
+                  color: Color(0xff2A4158),
+                  thickness: 1,
+                  
+                ),
                 Text(
-                'Flutter Developer',
+                'Flutter Developer & communication Engineer',
                 style: TextStyle(
                   color:Color(0xFF6C8090),
-                  fontSize:18, 
+                  fontSize:15, 
                   fontWeight: FontWeight.bold,
                 ),
                 ),
-                Padding(
+                Divider(
+                  color: Color(0xFF6C8090),
+                  thickness: 2,
+                  indent: 60,
+                  endIndent: 60,
+                  height: 20,
+                )
+                
+                ,Padding(
                   padding:EdgeInsets.symmetric(horizontal: 16,vertical: 8),
                   child: Container(
                     decoration: BoxDecoration(
@@ -72,7 +85,7 @@ class BusinessCard extends StatelessWidget {
                           padding: const EdgeInsets.only(left:22),
                           child: Text('(+2) 1026699108',
                           style: TextStyle(
-                            fontSize: 24)
+                            fontSize: 22)
                             ),
                         ),
                       ],
@@ -101,9 +114,9 @@ class BusinessCard extends StatelessWidget {
                         ),
                         Padding(
                           padding: const EdgeInsets.only(left:22),
-                          child: Text('yasmeenahmed',
+                          child: Text('yasmeen133@gmail.com',
                           style: TextStyle(
-                            fontSize: 24)
+                            fontSize: 22)
                             ),
                         ),
                       ],
