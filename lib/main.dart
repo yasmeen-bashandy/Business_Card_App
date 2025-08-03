@@ -58,72 +58,103 @@ class BusinessCard extends StatelessWidget {
                   indent: 60,
                   endIndent: 60,
                   height: 20,
+                ),
+                Card(
+                  margin: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                  shape: RoundedRectangleBorder(borderRadius: BorderRadiusGeometry.circular(8)),
+                  child: ListTile(
+                    leading:Icon(Icons.phone,
+                            size: 32,
+                            color: Color(0xff2A4158)
+                            ) ,
+                    title:Text('(+2) 1026699108',
+                            style: TextStyle(
+                              fontSize: 17)
+                              ) ,
+                  ),
                 )
                 
-                ,Padding(
-                  padding:EdgeInsets.symmetric(horizontal: 16,vertical: 8),
-                  child: Container(
-                    decoration: BoxDecoration(
-                      color: Colors.white,
-                      borderRadius: BorderRadius.circular(8)
-                    ),
-                    height: 65,
-                    // width: 60,
-                    // height: 60,
-                    child: Row(
-                      children: [
-                        
-                        Padding(
-                          padding: const EdgeInsets.only(left: 16),
-                          child: Icon(Icons.phone,
-                          size: 32,
-                          color: Color(0xff2A4158)
-                          ),
-                        ),
-                        Padding(
-                          padding: const EdgeInsets.only(left:22),
-                          child: Text('(+2) 1026699108',
-                          style: TextStyle(
-                            fontSize: 22)
-                            ),
-                        ),
-                      ],
-                    ),
+                
+                ,Card(
+                  margin: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                  shape: RoundedRectangleBorder(borderRadius: BorderRadiusGeometry.circular(8)),
+                  child: ListTile(
+                    leading:Icon(Icons.mail,
+                            size: 32,
+                            color: Color(0xff2A4158)
+                            ) ,
+                    title:Text('yasmeenahmed133@gmail.com',
+                            style: TextStyle(
+                              fontSize: 17
+                              
+                              )
+                              ) ,
                   ),
-                ),
-                Padding(
-                  padding:EdgeInsets.symmetric(horizontal: 16,vertical: 8),
-                  child: Container(
-                    decoration: BoxDecoration(
-                      color: Colors.white,
-                      borderRadius: BorderRadius.circular(8)
-                    ),
-                    height: 65,
-                    // width: 60,
-                    // height: 60,
-                    child: Row(
-                      children: [
+                )
+                
+                
+              //   ,Padding(
+              //     padding:EdgeInsets.symmetric(horizontal: 16,vertical: 8),
+              //     child: Container(
+              //       decoration: BoxDecoration(
+              //         color: Colors.white,
+              //         borderRadius: BorderRadius.circular(8)
+              //       ),
+              //       height: 65,
+              //       // width: 60,
+              //       // height: 60,
+              //       child: Row(
+              //         children: [
                         
-                        Padding(
-                          padding: const EdgeInsets.only(left: 16),
-                          child: Icon(Icons.mail,
-                          size: 32,
-                          color: Color(0xff2A4158)
-                          ),
-                        ),
-                        Padding(
-                          padding: const EdgeInsets.only(left:22),
-                          child: Text('yasmeen133@gmail.com',
-                          style: TextStyle(
-                            fontSize: 22)
-                            ),
-                        ),
-                      ],
-                    ),
-                  ),
-                ),
-              
-              
+              //           Padding(
+              //             padding: const EdgeInsets.only(left: 16),
+              //             child: Icon(Icons.phone,
+              //             size: 32,
+              //             color: Color(0xff2A4158)
+              //             ),
+              //           ),
+              //           Padding(
+              //             padding: const EdgeInsets.only(left:22),
+              //             child: Text('(+2) 1026699108',
+              //             style: TextStyle(
+              //               fontSize: 22)
+              //               ),
+              //           ),
+              //         ],
+              //       ),
+              //     ),
+              //   ),
+              //   Padding(
+              //     padding:EdgeInsets.symmetric(horizontal: 16,vertical: 8),
+              //     child: Container(
+              //       decoration: BoxDecoration(
+              //         color: Colors.white,
+              //         borderRadius: BorderRadius.circular(8)
+              //       ),
+              //       height: 65,
+              //       // width: 60,
+              //       // height: 60,
+              //       child: Row(
+              //         children: [
+                        
+              //           Padding(
+              //             padding: const EdgeInsets.only(left: 16),
+              //             child: Icon(Icons.mail,
+              //             size: 32,
+              //             color: Color(0xff2A4158)
+              //             ),
+              //           ),
+              //           Padding(
+              //             padding: const EdgeInsets.only(left:22),
+              //             child: Text('yasmeen133@gmail.com',
+              //             style: TextStyle(
+              //               fontSize: 22)
+              //               ),
+              //           ),
+              //         ],
+              //       ),
+              //     ),
+              //   ),
               ],
             ), 
       ),
