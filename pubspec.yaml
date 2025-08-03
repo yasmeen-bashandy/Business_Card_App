@@ -78,6 +78,12 @@ flutter:
     - family: Pacifico
       fonts:
         - asset: fonts/Pacifico-Regular.ttf
+    - family: PlayfairDisplay
+      fonts:
+        - asset: fonts/PlayfairDisplay-VariableFont_wght.ttf
+    - family: PlaywriteHU
+      fonts:
+        - asset: fonts/PlaywriteHU-VariableFont_wght.ttf
         
     
   #

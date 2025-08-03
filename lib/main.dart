@@ -37,20 +37,19 @@ class BusinessCard extends StatelessWidget {
                 style: TextStyle(
                   color: Colors.white,
                   fontSize:30, 
-                  fontFamily: 'Pacifico',
+                  fontFamily: 'PlayfairDisplay',
                 ),
                 ),
-                 Divider(
-                  color: Color(0xff2A4158),
-                  thickness: 1,
-                  
-                ),
+                //  Divider(
+                //   color: Color(0xff2A4158),
+                //   thickness: 1,
+                // ),
                 Text(
                 'Flutter Developer & Communication Engineer',
                 style: TextStyle(
                   color:Color(0xFF6C8090),
                   fontSize:15, 
-                  fontWeight: FontWeight.bold,
+                  // fontWeight: FontWeight.bold,
                 ),
                 ),
                 Divider(
