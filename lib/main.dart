@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
 void main(){
-  runApp(BusinessCard());
+  runApp( const BusinessCardApp());
 }
-class BusinessCard extends StatelessWidget {
-   BusinessCard();
+class BusinessCardApp extends StatelessWidget {
+   const BusinessCardApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -92,7 +92,7 @@ class BusinessCard extends StatelessWidget {
                   ),
                 )
                 
-                
+// ---------  old code before ListTile--------//
               //   ,Padding(
               //     padding:EdgeInsets.symmetric(horizontal: 16,vertical: 8),
               //     child: Container(
