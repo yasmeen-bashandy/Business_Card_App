@@ -9,6 +9,7 @@ class BusinessCardApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Color(0xff2A4158),
         body: Column(
@@ -67,7 +68,7 @@ class BusinessCardApp extends StatelessWidget {
                             size: 32,
                             color: Color(0xff2A4158)
                             ) ,
-                    title:Text('(+2) 1026699108',
+                    title:Text('(+2) 01026699108',
                             style: TextStyle(
                               fontSize: 17)
                               ) ,
